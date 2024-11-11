@@ -1,6 +1,9 @@
-.navbar{
-    font-size: large;
+.nav{
+    background-color: #5eb08b;
+}
 
+/* Login form */
+form{
     .btn-primary{
         font-size: large;
         background-color: #5eb08b;
@@ -14,8 +17,4 @@
         background-color: #8dbfa8;
         border: solid 2px #8dbfa8;
     }
-    .btn-secondary{
-        font-size: large;
-    }
-    
 }
