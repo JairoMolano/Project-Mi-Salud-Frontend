@@ -1,0 +1,21 @@
+.navbar{
+    font-size: large;
+
+    .btn-primary{
+        font-size: large;
+        background-color: #5eb08b;
+        border: solid 2px #5eb08b;
+    }
+    .btn-primary:active{
+        background-color: #4a8a6e;
+        border-color: #4a8a6e;
+    }
+    .btn-primary:hover{
+        background-color: #8dbfa8;
+        border: solid 2px #8dbfa8;
+    }
+    .btn-secondary{
+        font-size: large;
+    }
+    
+}

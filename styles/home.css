@@ -10,10 +10,18 @@
         background-color: #5eb08b;
         border: solid 2px #5eb08b;
     }
-
+    .btn-primary:active{
+        background-color: #4a8a6e;
+        border-color: #4a8a6e;
+    }
+    .btn-primary:hover{
+        background-color: #8dbfa8;
+        border: solid 2px #8dbfa8;
+    }
     .btn-secondary{
         font-size: large;
     }
+    
 }
 
 .nav{
@@ -24,46 +32,98 @@
         color: white;
         font-size: large;
     }
+    .nav-link.active{
+        color: #5eb08b;
+    }
+    .nav-link:hover{
+        color: #5eb08b;
+    }
+}
+
+.servicios{
+    h1{
+        font-size: 5em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 1;
+    }
+    .card{
+        align-items: center;
+        border-color: #5eb08b;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: #5eb08b;
+        }
+    }
 }
 
 .footer{
     background-color: #5eb08b;
     color: black;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 
 .novedades{
-    background-color: #8dbfa8;
-
 
     .carousel-control-prev-icon{
-        background-color: #8dbfa8;
-        border: solid 2px #8dbfa8;
+        background-color: #303432;
+        border: solid 2px black;
         border-radius: 50%;
         width: 40px;
         height: 40px;
     }
 
     .carousel-control-next-icon{
-        background-color: #8dbfa8;
-        border: solid 2px #8dbfa8;
+        background-color: #303432;
+        border: solid 2px black;
         border-radius: 50%;
         width: 40px;
         height: 40px;
     }
 
-    .carousel-control-prev{
-        left: -6%; 
-        width: 5%;
+    .carousel-control-next{
+        left: 50%;
+        transform: translateY(55%);
     }
 
-    .carousel-control-next{
-        right: -6%;
-        width: 5%;
+    .carousel-control-prev{
+        left: 42%;
+        transform: translateY(55%);
     }
 
     .card{
-        text-align: center;
-        border-color: #8dbfa8;
+        background-color: #a7dac2;
+        border-color: white;
+        
+        .card-title{
+            font-size: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .card-text{
+            font-size: 18px;
+        }
+    }
+
+
+}
+
+.nov{
+    h1{
+        font-size: 4em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 1;
+    }
+    p{
+        font-size: 18px;
     }
 }
 
