@@ -1,0 +1,69 @@
+.carousel-inner{
+    max-height: 440px;
+}
+
+.navbar{
+    font-size: large;
+
+    .btn-primary{
+        font-size: large;
+        background-color: #5eb08b;
+        border: solid 2px #5eb08b;
+    }
+
+    .btn-secondary{
+        font-size: large;
+    }
+}
+
+.nav{
+    background-color: #303432;
+
+    .nav-link{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+}
+
+.footer{
+    background-color: #5eb08b;
+    color: black;
+}
+
+.novedades{
+    background-color: #8dbfa8;
+
+
+    .carousel-control-prev-icon{
+        background-color: #8dbfa8;
+        border: solid 2px #8dbfa8;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-next-icon{
+        background-color: #8dbfa8;
+        border: solid 2px #8dbfa8;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev{
+        left: -6%; 
+        width: 5%;
+    }
+
+    .carousel-control-next{
+        right: -6%;
+        width: 5%;
+    }
+
+    .card{
+        text-align: center;
+        border-color: #8dbfa8;
+    }
+}
+
